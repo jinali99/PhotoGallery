@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "head.html" %}
+
+{% include "header.html" %}
+
+<body>
+
+ <main>
+
+  <div class="container-fluid-center mt-5 pt-5 ">
+
+  {% include "mywork.html" %}
+  <hr class="between-sections">
+    {% include "wedding.html" %}
+
+
+ </div>
+ 
+  <hr class="between-sections">
+
+
+<div class="container">
+ {% include "about.html" %}
+  <!-- /Start your project here-->
+<hr class="between-sections">
+   {% include "contact.html" %}
+
+ </div>
+
+ </main>
+ {% include "footer.html" %}
+
+{% include "script.html" %}
+
+</body>
+</html>

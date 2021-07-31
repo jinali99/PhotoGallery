@@ -1,0 +1,72 @@
+{% load static %}
+<section class="section">
+<h1 class="section-heading text-center md-4 mt-4 black-text wow fadeIn" data-wow-delay="0.2s"> BABY SHOOT </h1><br>
+	<div class ="row wow FadeIn" data-wow-delay="0.4s">
+		<div class="col-md-12">
+			<div id="mdb-lightbox-ui">
+				<div class="mdb-lightbox">
+					{% for img in images %}
+					<figure class="col-md-4">
+						<img src="{{img.image.url}}" alt="{{img.alt}}">
+					</figure>
+					{% endfor %}
+				</div>	
+				<!--------- CARD ------>
+
+				<div class="wrapper md-4 mt-4">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card mx-30">
+                  <div class="card-body ">
+                    <h5 class="card-title">Ideal Package for Kids Photography</h5>
+						<h6>₹15,000 2-3 Hour Session</h6>
+						<p class="card-text">
+							Baby Photography | Cake Smash | Kids Portfolio | Infant Photography </p>
+						<p> Perfect for families looking to capture their little one's initial days. This package gives you the studio shots as well as candid outdoor shots. </p>
+						<div class="container text-center t">
+					<a href="#contact" ><input type="submit" value="CONTACT NOW" ></a>
+				</div>
+
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-4">
+                <div class="card mx-30">
+                  <div class="card-body">
+                    <h5 class="card-title">Maternity + New Born</h5>
+					<h6>  ₹20,000  3 Hour Session </h6>
+					<p class="card-text">Maternity Photoshoot | New Born Photoshoot </p>
+					<p> Perfect package if you wish to preserve the memories of the most special time of your life. We capture the most unique process of your life, the transition from pregnancy to the newly born baby. </p>
+					<div class="container text-center t">
+					<a href="#contact" ><input type="submit" value="CONTACT NOW"></a>
+					</div>
+
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-4">
+                <div class="card mx-30">
+                  <div class="card-body">
+                    <h5 class="card-title">Basic Package for Kids Photography (6 Months - 2 year Old)</h5>
+					<h6> ₹8,000   1 Hour Session</h6>
+					<p class="card-text">
+						Baby Photography | Kids Portfolio | Infant Photography | Cake Smash </p>
+					<p> This package is an ideal gift to a loved one or to your self by capturing the candid moments of your little one. </p>
+					<div class="container text-center t">
+					<a href="#contact" ><input type="submit" value="CONTACT NOW"></a>
+					</div>
+					<!--<li class="button"><a href="https://www.deepachtani.com/contact-us/" class="button"  style="background:black;border-color:#222222;color:#fff;"> CONTACT NOW</a></li></ul></div></div>-->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+			</div>
+
+		</div>
+	</div>
+</section>
